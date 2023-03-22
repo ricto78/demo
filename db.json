@@ -51,67 +51,31 @@
     {
       "caseUid": "caseUid1",
       "caseName": "caseName1",
-      "receiptDate": {
-        "year": 2020,
-        "month": "JANUARY",
-        "monthValue": 1,
-        "dayOfMonth": 8,
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        },
-        "era": "CE",
-        "dayOfYear": 8,
-        "dayOfWeek": "WEDNESDAY",
-        "leapYear": true
-      },
-      "transmissionDate": {
-        "year": 2020,
-        "month": "JANUARY",
-        "monthValue": 1,
-        "dayOfMonth": 9,
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        },
-        "era": "CE",
-        "dayOfYear": 9,
-        "dayOfWeek": "THURSDAY",
-        "leapYear": true
-      },
+      "receiptDate": [
+        2020,
+        1,
+        8
+      ],
+      "transmissionDate": [
+        2020,
+        1,
+        9
+      ],
       "needsTransmissionDate": true
     },
     {
       "caseUid": "caseUid2",
       "caseName": "caseName2",
-      "receiptDate": {
-        "year": 2020,
-        "month": "FEBRUARY",
-        "monthValue": 2,
-        "dayOfMonth": 8,
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        },
-        "era": "CE",
-        "dayOfYear": 39,
-        "dayOfWeek": "SATURDAY",
-        "leapYear": true
-      },
-      "transmissionDate": {
-        "year": 2020,
-        "month": "FEBRUARY",
-        "monthValue": 2,
-        "dayOfMonth": 9,
-        "chronology": {
-          "id": "ISO",
-          "calendarType": "iso8601"
-        },
-        "era": "CE",
-        "dayOfYear": 40,
-        "dayOfWeek": "SUNDAY",
-        "leapYear": true
-      },
+      "receiptDate": [
+        2020,
+        2,
+        8
+      ],
+      "transmissionDate": [
+        2020,
+        2,
+        9
+      ],
       "needsTransmissionDate": true
     }
   ]
