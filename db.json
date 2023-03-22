@@ -1,9 +1,118 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "paderInitial15Non15DaySummary": {
+    "pader15DaySummary": {
+      "nonFatalStudyCount": 1,
+      "nonFatalSolicitedCount": 1,
+      "nonFatalUnSolicitedCount": 1,
+      "fatalStudyCount": 1,
+      "fatalSolicitedCount": 1,
+      "fatalUnSolicitedCount": 1
+    },
+    "paderNon15DaySummary": {
+      "seriousUnlabeledUnrelatedStudyCount": 2,
+      "seriousUnlabeledUnrelatedSolicitedCount": 2,
+      "seriousLabeledStudyCount": 2,
+      "seriousLabeledSolicitedCount": 2,
+      "seriousLabeledUnsolicitedCount": 2,
+      "nonSeriousUnlabeledStudyCount": 2,
+      "nonSeriousUnlabeledSolicitedCount": 2,
+      "nonSeriousUnlabeledUnsolicitedCount": 2,
+      "nonSeriousLabeledStudyCount": 2,
+      "nonSeriousLabeledSolicitedCount": 2,
+      "nonSeriousLabeledUnsolicitedCount": 2
+    },
+    "allCasesUsed": []
+  },
+  "paderFollowup15Non15DaySummary": {
+    "pader15DaySummary": {
+      "nonFatalStudyCount": 3,
+      "nonFatalSolicitedCount": 3,
+      "nonFatalUnSolicitedCount": 3,
+      "fatalStudyCount": 3,
+      "fatalSolicitedCount": 3,
+      "fatalUnSolicitedCount": 3
+    },
+    "paderNon15DaySummary": {
+      "seriousUnlabeledUnrelatedStudyCount": 4,
+      "seriousUnlabeledUnrelatedSolicitedCount": 4,
+      "seriousLabeledStudyCount": 4,
+      "seriousLabeledSolicitedCount": 4,
+      "seriousLabeledUnsolicitedCount": 4,
+      "nonSeriousUnlabeledStudyCount": 4,
+      "nonSeriousUnlabeledSolicitedCount": 4,
+      "nonSeriousUnlabeledUnsolicitedCount": 4,
+      "nonSeriousLabeledStudyCount": 4,
+      "nonSeriousLabeledSolicitedCount": 4,
+      "nonSeriousLabeledUnsolicitedCount": 4
+    },
+    "allCasesUsed": []
+  },
+  "dataLogs": [
+    {
+      "caseUid": "caseUid1",
+      "caseName": "caseName1",
+      "receiptDate": {
+        "year": 2020,
+        "month": "JANUARY",
+        "monthValue": 1,
+        "dayOfMonth": 8,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "era": "CE",
+        "dayOfYear": 8,
+        "dayOfWeek": "WEDNESDAY",
+        "leapYear": true
+      },
+      "transmissionDate": {
+        "year": 2020,
+        "month": "JANUARY",
+        "monthValue": 1,
+        "dayOfMonth": 9,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "era": "CE",
+        "dayOfYear": 9,
+        "dayOfWeek": "THURSDAY",
+        "leapYear": true
+      },
+      "needsTransmissionDate": true
+    },
+    {
+      "caseUid": "caseUid2",
+      "caseName": "caseName2",
+      "receiptDate": {
+        "year": 2020,
+        "month": "FEBRUARY",
+        "monthValue": 2,
+        "dayOfMonth": 8,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "era": "CE",
+        "dayOfYear": 39,
+        "dayOfWeek": "SATURDAY",
+        "leapYear": true
+      },
+      "transmissionDate": {
+        "year": 2020,
+        "month": "FEBRUARY",
+        "monthValue": 2,
+        "dayOfMonth": 9,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        },
+        "era": "CE",
+        "dayOfYear": 40,
+        "dayOfWeek": "SUNDAY",
+        "leapYear": true
+      },
+      "needsTransmissionDate": true
+    }
+  ]
 }
