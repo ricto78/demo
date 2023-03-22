@@ -61,7 +61,7 @@
         1,
         9
       ],
-      "needsTransmissionDate": true
+      "needsTransmissionDate": false
     },
     {
       "caseUid": "caseUid2",
@@ -76,7 +76,7 @@
         2,
         9
       ],
-      "needsTransmissionDate": true
+      "needsTransmissionDate": false
     }
   ]
 }
